@@ -3,48 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="portafolio.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="tribute-page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div>
-      <nav class="menu">
-        <img src="#" />
-        <div class="links">
-          <p class="about">About</p>
-          <p class="work">Work</p>
-          <p class="contact">Contact</p>
-        </div>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="resumen-content">
-        <p class="profesion">Profesión</p>
-        <h1 class="name">Name and Surname</h1>
-        <p class="resumen">Resumen en 2 lineas</p>
+    <div id="main">
+      <div id="img-div">
+        <img id="image" src="/imagenes/el-divo-de-juarez.jpg" />
+        <p id="img-caption">
+          Juan Gabriel. Colloquially nicknamed as <em>Juanga</em> and
+          <em>El Divo de Juarez</em>
+        </p>
       </div>
-    </div>
-    <div class="about-container">
-      <div class="box-img">
-        <div class="white-box"></div>
-        <img class="about-img" src="/imagenes/foto.jpg" />
-      </div>
-      <div class="contenido-about">
-        <div class="about-me">
-          <h2>About me</h2>
+      <article class="container">
+        <h1 id="title">Juan Gabriel</h1>
+        <div id="tribute-info">
+          <p>
+            Alberto Aguilera Valadez was born January 7, 1950 and died August
+            28, 2016. Was a Mexican singer, songwriter and actor known
+            professionally as Juan Gabriel.
+          </p>
+          <p>
+            Gabriel was known for his flamboyant style, which broke barriers
+            within the Latin music market. Widely considered one of the best and
+            most prolific Mexican composers and singers of all time, he has been
+            called a pop icon.
+          </p>
+          <p>
+            "Hasta que te conocí", is a drama series that follows the steps of
+            Alberto Aguilera Valadez, towards his dream to fame. A tour of 13
+            episodes based on unpublished evidence that reveals, as never
+            before, the life of the Divo of Juarez: Juan Gabriel. A story that
+            tells how his talent led him to defy his fate and overcome poverty,
+            betrayals and prejudices, to become Juan Gabriel, the most beloved
+            musical icon in Latin America.
+          </p>
         </div>
-        <div>
-          <h3 class="txt-sobre-mi">Lic en Educación</h3>
-          <p class="txt-sobre-mi">Hablar un poco sobre mis estudios de la universidad</p>
-          <h3 class="txt-sobre-mi">Programación</h3>
-        </div>
-      </div>
-    </div>
-    <div class="">
-      <h2>Work</h2>
-    </div>
-    <div>
-      <h2>Contact</h2>
+        <ul class="big-size">
+          <li>
+            <a
+              href="https://www.discogs.com/artist/388832-Juan-Gabriel"
+              target="_blank"
+              id="tribute-link"
+              >Discography</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/2MRBDr0crHWE5JwPceFncq?autoplay=true"
+              target="_blank"
+              class="music"
+              >Music</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.tvn-2.com/novelas/hastaqueteconoci/"
+              target="_blank"
+              class="conoci"
+              >Tv-series</a
+            >
+          </li>
+        </ul>
+      </article>
     </div>
   </body>
 </html>

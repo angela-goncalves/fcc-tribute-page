@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial;
+  background-color: #f8cfe4;
+  font-size: 1rem;
+}
+#main {
+  display: flex;
+}
+#img-div {
+  flex: 1;
+}
+.container {
+  flex: 1.5;
+  margin: 0px 40px;
+}
+#image {
+  width: 95%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#img-caption {
+  font-family: "Quicksand", sans-serif;
+  margin: 0px;
+  padding: 8px 0px 0px 8px;
+}
+#title {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  color: #89564a;
+  margin: 10px 0px;
+}
+#tribute-info {
+  color: #89564a;
+  margin: 0px;
+  padding: 20px 0px;
+  font-family: "PT Serif", serif;
+  text-align: justify;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+ul {
+  padding: 5px;
+  margin: 10px 0px;
+}
+.big-size {
+  display: flex;
+  justify-content: space-between;
+}
+.big-size > li {
+  transform-origin: 50%;
+  transition: 0.3s;
+  border: solid #905f68;
+  background-color: #905f68;
+  list-style-type: none;
+  padding: 8px;
+  border-radius: 30px;
+  min-width: 100px;
+  text-align: center;
+}
+.big-size li:hover {
+  transform: scale(1.1);
+}
+#tribute-link,
+.music,
+.conoci {
+  color: #e9deca;
+}
+@media (max-width: 550px) {
+  #main {
+    display: flex;
+    flex-direction: column;
+  }
+  #img-div {
+    align-self: center;
+  }
+}
