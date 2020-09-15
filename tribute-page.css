@@ -25,18 +25,19 @@ body {
 #img-caption {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
-  padding: 8px 0px 0px 8px;
+  padding: 8px 8px 0px 8px;
 }
 #title {
   font-family: "Playfair Display", serif;
   font-size: 4rem;
   color: #89564a;
   margin: 10px 0px;
+  text-align: center;
 }
 #tribute-info {
+  padding: 20px 0px;
   color: #89564a;
   margin: 0px;
-  padding: 20px 0px;
   font-family: "PT Serif", serif;
   text-align: justify;
 }
@@ -45,26 +46,25 @@ a {
   text-decoration: none;
 }
 ul {
-  padding: 5px;
-  margin: 10px 0px;
+  padding: 0px;
+  margin: 40px 0px 10px;
 }
-.big-size {
+.boton {
   display: flex;
   justify-content: space-between;
 }
-.big-size > li {
-  transform-origin: 50%;
-  transition: 0.3s;
+.boton > li {
   border: solid #905f68;
   background-color: #905f68;
   list-style-type: none;
   padding: 8px;
-  border-radius: 30px;
-  min-width: 100px;
+  border-radius: 20px;
   text-align: center;
 }
-.big-size li:hover {
-  transform: scale(1.1);
+.boton li:hover {
+  background-color: #683217;
+  color:#f7e8e3;
+  border: solid #683217 2px;
 }
 #tribute-link,
 .music,
@@ -76,7 +76,17 @@ ul {
     display: flex;
     flex-direction: column;
   }
-  #img-div {
-    align-self: center;
+  .container {
+    margin: 10px 30px;
   }
+  #title{
+    font-size: 3rem;
+    margin: 10px 0px;
+  }
+  #img-caption{
+    text-align: center;
+  }
+  #tribute-info {
+    padding: 0px;
+  }  
 }
