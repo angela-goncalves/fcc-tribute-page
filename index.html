@@ -19,17 +19,21 @@
     />
   </head>
   <body>
-    <div id="main">
-      <div id="img-div">
-        <img id="image" src="/imagenes/el-divo-de-juarez.jpg" />
-        <p id="img-caption">
+    <main id="main">
+      <figure id="img-div">
+        <img
+          id="image"
+          alt="Juan Gabriel wering a cream suit"
+          src="/imagenes/el-divo-de-juarez.jpg"
+        />
+        <figcaption id="img-caption">
           Juan Gabriel. Colloquially nicknamed as <em>Juanga</em> and
           <em>El Divo de Juarez</em>
-        </p>
-      </div>
+        </figcaption>
+      </figure>
       <article class="container">
         <h1 id="title">Juan Gabriel</h1>
-        <div id="tribute-info">
+        <section id="tribute-info">
           <p>
             Alberto Aguilera Valadez was born January 7, 1950 and died August
             28, 2016. Was a Mexican singer, songwriter and actor known
@@ -50,34 +54,50 @@
             betrayals and prejudices, to become Juan Gabriel, the most beloved
             musical icon in Latin America.
           </p>
-        </div>
-        <ul class="boton">
-          <li>
-            <a
-              href="https://www.discogs.com/artist/388832-Juan-Gabriel"
-              target="_blank"
-              id="tribute-link"
-              >Discography</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://open.spotify.com/artist/2MRBDr0crHWE5JwPceFncq?autoplay=true"
-              target="_blank"
-              class="music"
-              >Music</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://www.tvn-2.com/novelas/hastaqueteconoci/"
-              target="_blank"
-              class="conoci"
-              >Tv-series</a
-            >
-          </li>
-        </ul>
+        </section>
+        <aside class="buttom-box">
+          <a
+            class="buttom"
+            href="https://www.discogs.com/artist/388832-Juan-Gabriel"
+            target="_blank"
+            id="tribute-link"
+            >Discography</a
+          >
+          <a
+            class="buttom music"
+            href="https://open.spotify.com/artist/2MRBDr0crHWE5JwPceFncq?autoplay=true"
+            target="_blank"
+            >Music</a
+          >
+          <a
+            class="buttom conoci"
+            href="https://www.tvn-2.com/novelas/hastaqueteconoci/"
+            target="_blank"
+            >Tv-series</a
+          >
+        </aside>
       </article>
-    </div>
+    </main>
+    <footer class="contact-info">
+      <p>Angela</p>
+      <figure class="contact-info-box">
+        <a href="mailto:angelakgo20@gmail.com"
+          ><img
+            class="e-mail"
+            src="/imagenes/envelope.svg"
+            alt="e-mail icon"
+        /></a>
+        <p>E-mail</p>
+      </figure>
+      <figure class="contact-info-box">
+        <a
+          href="https://github.com/angela-goncalves/fcc-tribute-page"
+          target="blank"
+          ><img class="github" src="/imagenes/github.svg" alt="github"
+        /></a>
+        <p>github</p>
+      </figure>
+      <p>Sep 2020</p>
+    </footer>
   </body>
 </html>
