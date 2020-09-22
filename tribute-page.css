@@ -5,17 +5,17 @@ body {
   background-color: #f8cfe4;
   font-size: 1rem;
 }
+main {
+  display: flex;
+}
+.img-div{
+  flex: 1;
+}
 figure {
   margin: 0px;
   padding: 0px;
 }
-#main {
-  display: flex;
-}
-#img-div {
-  flex: 1;
-}
-.container {
+article {
   flex: 1.5;
   margin: 0px 40px;
 }
@@ -25,22 +25,24 @@ figure {
   margin: 0 auto;
   max-width: 95%;
 }
-#img-caption {
+figcaption {
   font-family: "Quicksand", sans-serif;
   margin: 0px;
   padding: 8px 8px 0px 8px;
 }
-#title {
+header {
   font-family: "Playfair Display", serif;
-  font-size: 4rem;
-  color: #89564a;
-  margin: 10px 0px;
-  text-align: center;
-}
-#tribute-info {
-  padding: 20px 0px;
+  font-size: 3rem;
   color: #89564a;
   margin: 0px;
+  text-align: center;
+}
+h1{
+  margin: 0px;
+}
+section {
+  margin: 50px 20px 60px 20px;
+  color: #89564a;
   font-family: "PT Serif", serif;
   text-align: justify;
 }
@@ -51,36 +53,35 @@ a {
 .buttom-box {
   display: flex;
   justify-content: space-between;
-  margin: 0px 0px 30px 0px;
+  margin: 10px 0px 30px 0px;
 }
-.buttom {
+.buttom-border {
   border: solid #905f68;
   background-color: #905f68;
-  list-style-type: none;
-  padding: 8px;
   border-radius: 20px;
+}
+.buttom {
+  padding: 8px;
   text-align: center;
+  color: #e9deca;
+  min-width: 100px;
 }
 .buttom:hover {
   background-color: #683217;
   color: #f7e8e3;
   border: solid #683217 2px;
 }
-#tribute-link,
-.music,
-.conoci {
-  color: #e9deca;
-}
 footer > p {
   padding: 10px 10px;
-  color: #292929;
+  color: #fee2e3;
   text-align: center;
   margin: 0px;
 }
-.contact-info {
+footer {
   display: flex;
+  align-items:center;
   justify-content: space-between;
-  background-color: #615e59;
+  background-color: #e56aa9;
 }
 .e-mail,
 .github {
@@ -88,11 +89,6 @@ footer > p {
   padding: 0px;
   width: 40px;
   height: auto;
-}
-.contact-info-box {
-  display: flex;
-  align-items: center;
-  color: #292929;
 }
 @media (max-width: 550px) {
   #main {
