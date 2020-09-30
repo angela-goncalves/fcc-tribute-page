@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="Description"
+      content="Angela's Tribute page project from freecodecamp"
+    />
     <title>Tribute page</title>
     <link rel="stylesheet" href="tribute-page.css" />
     <link
@@ -27,13 +31,16 @@
       <div id="img-div" class="img-div">
         <figure>
           <img
+            class="img-juanga"
             id="image"
             alt="Juan Gabriel wearing a cream suit"
             src="/imagenes/el-divo-de-juarez.jpg"
           />
           <figcaption id="img-caption">
-            Juan Gabriel. Colloquially nicknamed as <em>Juanga</em> and
-            <em>El Divo de Juarez</em>
+            <p class="text-caption">
+              Juan Gabriel. Colloquially nicknamed as <em>Juanga</em> and
+              <em>El Divo de Juarez</em>
+            </p>
           </figcaption>
         </figure>
       </div>
@@ -61,11 +68,12 @@
             musical icon in Latin America.
           </p>
         </section>
-        <aside class="links-box">
+        <section class="links-box">
           <a
             class="links"
             href="https://www.discogs.com/artist/388832-Juan-Gabriel"
             target="_blank"
+            rel="noreferrer"
             id="tribute-link"
             >Discography</a
           >
@@ -73,31 +81,40 @@
             class="links music"
             href="https://open.spotify.com/artist/2MRBDr0crHWE5JwPceFncq?autoplay=true"
             target="_blank"
+            rel="noreferrer"
             >Music</a
           >
           <a
             class="links serie"
             href="https://www.tvn-2.com/novelas/hastaqueteconoci/"
             target="_blank"
+            rel="noreferrer"
             >Tv-series</a
           >
-        </aside>
+        </section>
       </article>
     </main>
     <footer>
       <p>Angela G.</p>
-      <a href="mailto:angelakgo20@gmail.com"
-        ><img class="icono" src="/imagenes/envelope.svg" alt="e-mail"
+      <a href="mailto:angelakgo20@gmail.com" target="blank" rel="noreferrer"
+        ><img class="icono" src="/imagenes/envelope.svg" alt="e-mail icon"
       /></a>
       <a
         href="https://github.com/angela-goncalves/fcc-tribute-page"
         target="blank"
-        ><img class="icono" src="/imagenes/github.svg" alt="github"
+        rel="noreferrer"
+        ><img class="icono" src="/imagenes/github.svg" alt="github icon"
       /></a>
-      <a href="https://codepen.io/angela-goncalves" target="blank"
-        ><img class="icono" src="/imagenes/codepenicon.svg" alt="codepen"
+      <a
+        href="https://codepen.io/angela-goncalves"
+        target="blank"
+        rel="noreferrer"
+        ><img class="icono" src="/imagenes/codepenicon.svg" alt="codepen icon"
       /></a>
       <p>Sep 2020</p>
     </footer>
+    <script
+      href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"
+    ></script>
   </body>
 </html>
